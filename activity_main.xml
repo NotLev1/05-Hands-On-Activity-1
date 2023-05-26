@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg_burger"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CC373737"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHECKER"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:textSize="54dp"
+                android:layout_marginBottom="60dp"/>
+
+            <EditText
+                android:id="@+id/firstText"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Text Here..."
+                android:textColorHint="#C0C0C0"
+                android:layout_marginBottom="20dp"/>
+
+            <EditText
+                android:id="@+id/secondText"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Enter Text Here..."
+                android:textColorHint="#C0C0C0"/>
+
+            <Button
+                android:id="@+id/btnCheck"
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="#B6AD5E"
+                android:text="CHECK"
+                android:textColor="#FFF" />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/btnSwap"
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:backgroundTint="#B6AD5E"
+                android:text="SWAP"
+                android:textColor="#FFF"
+                android:layout_marginBottom="70dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
